@@ -1,0 +1,35 @@
+{
+  "name": "msx-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for MSX (Microsoft Sales Experience) Dataverse data",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericchansen/msx-mcp.git"
+  },
+  "keywords": [],
+  "author": "Eric Hansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericchansen/msx-mcp/issues"
+  },
+  "homepage": "https://github.com/ericchansen/msx-mcp#readme",
+  "dependencies": {
+    "@azure/identity": "^4.13.0",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
