@@ -29,3 +29,8 @@ coverage/
 # Temporary files
 *.tmp
 tmp/
+
+# Jekyll
+Gemfile.lock
+_site/
+.jekyll-cache/

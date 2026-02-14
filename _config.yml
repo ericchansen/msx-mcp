@@ -1,0 +1,30 @@
+title: msx-mcp
+description: MCP server + Copilot skills for Microsoft Sales Experience (MSX)
+theme: minima
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+
+url: https://ericchansen.github.io
+baseurl: /msx-mcp
+
+header_pages:
+  - docs/getting-started.md
+  - docs/example-prompts.md
+
+exclude:
+  - node_modules/
+  - dist/
+  - src/
+  - skills/
+  - .env*
+  - tsconfig.json
+  - vitest.config.ts
+  - package.json
+  - package-lock.json
+  - Gemfile.lock
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
